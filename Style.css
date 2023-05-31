@@ -1,0 +1,103 @@
+*{
+    background: #E5E5E5;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.Logo{
+    padding: 10px;
+    margin-left: 5px;
+    width: 6%;
+}
+
+main{
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 180px;
+}
+
+.Area_text{
+    border: none;
+    color: #0A3871;
+    height: 400px;
+    margin-top: 30px;
+    padding: 2px;
+/*    text-transform: lowercase;*/
+}
+
+::placeholder { color: #0a3871; }
+    .Area_text:focus{
+        outline: none;
+    }
+
+.Msn{
+    background-color: white;
+    background-image: url("Imagenes/Persona.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 32px;
+    color: #0a3871;
+    height: 630px;
+    margin-left: 98px;
+    margin-top: 1px;
+    padding-left: 20px;
+    position: fixed;
+    width: 350px;
+}
+
+.Msn:focus{
+    outline: none;
+}
+
+.Botones{
+    display: flex;
+    margin-top: 18px;
+}
+
+.Encriptar_boton{
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    height: 67px;
+    width: 328px;   
+}
+
+.Desencriptar_boton{
+    background-color: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.Copiar_boton{
+    background-color: #FFFFFF;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    height: 67px;
+    margin-left: 120px;
+    margin-top: 515px;
+    position: absolute;
+    width: 336px;
+}
+
+.Informacion{
+    color: #495057;
+    font-size: 12px;
+    opacity: 0.8;
+}
