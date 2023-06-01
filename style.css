@@ -37,7 +37,7 @@ main{
     background-image: url("Imagenes/Persona.png");
     background-repeat: no-repeat;
     background-position: center;
-    border: none;
+    border: 2px solid black;
     border-radius: 32px;
     color: #0a3871;
     font-weight: bold;
@@ -94,7 +94,7 @@ main{
     font-size: 16px;
     height: 67px;
     margin-left: 120px;
-    margin-top: 515px;
+    margin-top: 540px;
     position: absolute;
     width: 336px;
 }
@@ -105,7 +105,7 @@ main{
     opacity: 0.8;
 }
 
-footer {
+footer{
     text-align: center;
     padding: 90px;
 }
