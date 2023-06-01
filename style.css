@@ -40,11 +40,14 @@ main{
     border: none;
     border-radius: 32px;
     color: #0a3871;
+    font-weight: bold;
+    font-size: 26px;
     height: 630px;
     margin-left: 98px;
     margin-top: 1px;
     padding-left: 20px;
     position: fixed;
+    text-align: center;
     width: 350px;
 }
 
